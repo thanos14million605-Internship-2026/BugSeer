@@ -81,7 +81,7 @@ const Landing = () => {
               className="text-4xl md:text-6xl font-bold mb-6"
               style={{ color: "#2f4858" }}
             >
-              CodeSage
+              BugSeer
               <span
                 className="block text-2xl md:text-3xl font-normal mt-2"
                 style={{ color: "#4b5563" }}

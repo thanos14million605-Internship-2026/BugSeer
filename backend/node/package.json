@@ -1,7 +1,7 @@
 {
-  "name": "codesage-backend",
+  "name": "bugseer-backend",
   "version": "1.0.0",
-  "description": "CodeSage Backend API",
+  "description": "BugSeer Backend API",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

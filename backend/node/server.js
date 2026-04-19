@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 5000;
 
 // Start server
 app.listen(PORT, async () => {
-  console.log(`🚀 CodeSage Backend Server running on port ${PORT}`);
+  console.log(`🚀 BugSeer Backend Server running on port ${PORT}`);
 
   // Test database connection
   try {

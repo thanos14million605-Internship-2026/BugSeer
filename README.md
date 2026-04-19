@@ -1,6 +1,6 @@
-# CodeSage - AI-Powered Code Analysis & Bug Risk Prediction
+# BugSeer - AI-Powered Code Analysis & Bug Risk Prediction
 
-CodeSage is a production-grade AI-powered system that analyzes Python code to predict potential bugs and assess code quality. Built with modern web technologies and machine learning, it provides developers with actionable insights to improve their code.
+BugSeer is a production-grade AI-powered system that analyzes Python code to predict potential bugs and assess code quality. Built with modern web technologies and machine learning, it provides developers with actionable insights to improve their code.
 
 ## 🏗️ System Architecture
 
@@ -13,7 +13,7 @@ The system consists of three main components:
 ## 📁 Project Structure
 
 ```
-CodeSage/
+BugSeer/
 ├── frontend/                 # React frontend application
 │   ├── src/
 │   │   ├── components/       # Reusable UI components
@@ -56,14 +56,14 @@ CodeSage/
 
    ```bash
    git clone <repository-url>
-   cd CodeSage
+   cd BugSeer
    ```
 
 2. **Set up the database**
 
    ```bash
    # Create PostgreSQL database
-   createdb codesage
+   createdb bugseerdb
 
    # Navigate to Node.js backend
    cd backend/node
@@ -161,7 +161,7 @@ python train_model.py --repos 50 --data-only
 ```env
 PORT=5000
 NODE_ENV=development
-DATABASE_URL=postgresql://username:password@localhost:5432/codesage
+DATABASE_URL=postgresql://username:password@localhost:5432/bugseerdb
 JWT_SECRET=your-super-secret-jwt-key-here
 FASTAPI_URL=http://localhost:8000
 FRONTEND_URL=http://localhost:3000

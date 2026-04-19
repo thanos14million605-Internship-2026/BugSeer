@@ -44,7 +44,7 @@ app.use("/api/history", historyRoutes);
 app.get("/api/health", (req, res) => {
   res.json({
     status: "healthy",
-    service: "CodeSage Backend API",
+    service: "BugSeer Backend API",
     timestamp: new Date().toISOString(),
   });
 });
