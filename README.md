@@ -407,4 +407,4 @@ The system is actively maintained with regular updates:
 
 ---
 
-Built with ❤️ by Ebrima Gajaga under the supervision of Mrs. Pritibala Patel
+By Ebrima Gajaga under the supervision of Mrs. Pritibala Patel
